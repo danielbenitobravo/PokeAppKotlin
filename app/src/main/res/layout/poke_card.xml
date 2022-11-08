@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="1px"
+    android:background="@drawable/rounded_white_background">
+
+    <ImageView
+        android:id="@+id/pokeSprite"
+        android:layout_width="16sp"
+        android:layout_height="25dp"
+        tools:src="@drawable/app_icon"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/pokeName"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        tools:text="Magikarp"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_weight="10"/>
+
+    <TextView
+        android:id="@+id/pokeType1"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        tools:text="WATER"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:background="@drawable/style_type_water"
+        android:padding="2dp"
+        android:gravity="center"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/pokeType2"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        tools:text="FLYING"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:background="@drawable/style_type_flying"
+        android:padding="2dp"
+        android:gravity="center"/>
+
+</LinearLayout>

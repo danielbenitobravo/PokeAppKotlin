@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Standard Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#393939</color>
+
+    <!-- PokeColors -->
+    <color name="default_red">#FF0000</color>
+    <color name="dark_red">#CC0000</color>
+    <color name="default_blue">#3B4CCA</color>
+    <color name="default_yellow">#FFDE00</color>
+    <color name="dark_yellow">#B3A125</color>
+
+    <!-- Types Colors -->
+    <color name="type_water">#1552e2</color>
+    <color name="type_flying">#4a677d</color>
+</resources>
